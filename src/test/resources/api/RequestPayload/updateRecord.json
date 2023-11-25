@@ -1,0 +1,13 @@
+{
+	"data": {
+		"id": 5,
+		"email": "Update.Update@reqres.in",
+		"first_name": "Charles_Update",
+		"last_name": "Morris_Update",
+		"avatar": "https://reqres.in/img/faces/5-image_Update.jpg"
+	},
+	"support": {
+		"url": "https://reqres.in/#support-heading_Update",
+		"text": "To keep ReqRes free, contributions towards server costs are appreciated! Updated!"
+	}
+}
