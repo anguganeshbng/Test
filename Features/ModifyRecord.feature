@@ -38,7 +38,7 @@ Feature: Modify Existing Record Functionality
 
     Examples: 
       | id | statusCode | filePath                                                |
-      |  5 |        201 | src/test/resources/api/RequestPayload/updateRecord.json |
+      |  5 |        200 | src/test/resources/api/RequestPayload/updateRecord.json |
       
       
       

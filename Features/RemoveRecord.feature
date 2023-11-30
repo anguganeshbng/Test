@@ -27,4 +27,4 @@ Feature: Remove the Record
 
     Examples: 
       | id | statusCode |
-      |  4 |        204 |
+      |  4 |        404 |
