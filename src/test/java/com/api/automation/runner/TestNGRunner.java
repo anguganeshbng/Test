@@ -25,13 +25,14 @@ import io.cucumber.testng.TestNGCucumberRunner;
 		glue = { "com.api.automation.stepdef",
 				  "com.api.automation.configuration" 
 			   }, 
-		tags = "@API",
+		tags = "@DeleteRecord",
 		monochrome = true,
 		plugin = {
 				
 				"html:target/CucumberReport/HTML_Report/cucumber.html",
 				"json:target/CucumberReport/Json_Report/cucumber.json",
-				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+				"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
 		},
 		publish = true,
 		dryRun = false

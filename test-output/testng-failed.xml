@@ -6,7 +6,7 @@
       <class name="com.api.automation.runner.TestNGRunner">
         <methods>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="5"/>
+          <include name="runScenario" invocation-numbers="0"/>
           <include name="setUpClass"/>
         </methods>
       </class> <!-- com.api.automation.runner.TestNGRunner -->

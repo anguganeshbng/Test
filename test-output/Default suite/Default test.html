@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Nov 24 20:40:30 IST 2023</td>
+<td>Started on:</td><td>Thu Nov 30 23:15:22 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>14 seconds (14130 ms)</td>
+<tr><td>Total time:</td><td>7 seconds (7086 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,60 +76,21 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.api.automation.runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: com.api.automation.runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Update is working fine using PUT Call (Through POJO)", "Modify Existing Record Functionality"</td>
-<td><div><pre>java.lang.AssertionError: Expected Status Code is : 201
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at com.api.automation.stepdef.ModifyUserDetailsStepDef.verifyStatusCode(ModifyUserDetailsStepDef.java:40)
-	at ✽.Verify status code using 201(file:///C:/Users/aganesh/eclipse-workspace/API_Automation/./Features/ModifyRecord.feature:36)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1881892202", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1881892202'><pre>java.lang.AssertionError: Expected Status Code is : 201
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at com.api.automation.stepdef.ModifyUserDetailsStepDef.verifyStatusCode(ModifyUserDetailsStepDef.java:40)
-	at ✽.Verify status code using 201(file:///C:/Users/aganesh/eclipse-workspace/API_Automation/./Features/ModifyRecord.feature:36)
-</pre></div></td>
-<td>0</td>
-<td>com.api.automation.runner.TestNGRunner@f0c8a99</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.api.automation.runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: com.api.automation.runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get User Details using Id", "Verify User Details"</td>
-<td></td>
-<td>0</td>
-<td>com.api.automation.runner.TestNGRunner@f0c8a99</td></tr>
-<tr>
-<td title='com.api.automation.runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: com.api.automation.runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Update is working fine using PUT Call", "Modify Existing Record Functionality"</td>
-<td></td>
-<td>0</td>
-<td>com.api.automation.runner.TestNGRunner@f0c8a99</td></tr>
-<tr>
-<td title='com.api.automation.runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: com.api.automation.runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify to Create New Record Using Post Call", "Post Call Scenarios"</td>
-<td></td>
-<td>6</td>
-<td>com.api.automation.runner.TestNGRunner@f0c8a99</td></tr>
-<tr>
 <td title='com.api.automation.runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: com.api.automation.runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Remove Existing Record Using Delete Call", "Remove the Record"</td>
-<td></td>
-<td>0</td>
-<td>com.api.automation.runner.TestNGRunner@f0c8a99</td></tr>
-<tr>
-<td title='com.api.automation.runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: com.api.automation.runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify to Create New Record Using Post Call", "Post Call Scenarios"</td>
-<td></td>
-<td>0</td>
-<td>com.api.automation.runner.TestNGRunner@f0c8a99</td></tr>
-<tr>
-<td title='com.api.automation.runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: com.api.automation.runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get User Details using Id", "Verify User Details"</td>
-<td></td>
-<td>0</td>
-<td>com.api.automation.runner.TestNGRunner@f0c8a99</td></tr>
+<td><div><pre>java.lang.AssertionError: Expected Status Code : 404
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.api.automation.stepdef.DeleteUserDetailsStepDef.verifyStatusCode(DeleteUserDetailsStepDef.java:32)
+	at ✽.Verify status Code as 404(file:///C:/Users/aganesh/eclipse-workspace/API_Automation/./Features/RemoveRecord.feature:26)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1310788094", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1310788094'><pre>java.lang.AssertionError: Expected Status Code : 404
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.api.automation.stepdef.DeleteUserDetailsStepDef.verifyStatusCode(DeleteUserDetailsStepDef.java:32)
+	at ✽.Verify status Code as 404(file:///C:/Users/aganesh/eclipse-workspace/API_Automation/./Features/RemoveRecord.feature:26)
+</pre></div></td>
+<td>3</td>
+<td>com.api.automation.runner.TestNGRunner@1ed4ae0f</td></tr>
 </table><p>
 </body>
 </html>
